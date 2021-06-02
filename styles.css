@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font: 23px Arial;
+    text-align: center;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+header{
+    padding: 10px;
+}
+
+
+#img{
+    background-color: #fff;
+    margin: 50px;
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    margin: auto;
+
+}
+
+button{
+   
+    margin: 5px;
+    border: none;
+    border-bottom: 0px;    
+    border-radius: 5px;
+    height: 25px;
+    width: 150px;
+    background-color: #fbff11;
+    color: rgb(0, 0, 0);
+}
+
