@@ -2,20 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>App da Lâmpada!</title>
+    <title>Saúde-IMC</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>APP LÂMPADA</h1>
-    </header>
-    <div id="img">
-        <img src="./img/desligada.jpg" alt="lampada" id="lamp" ondblclick="brokenLamp()">
-    </div>
-    <div id="button">
-        <button id="turnOn">Liga </button>
-        <button id="turnOff">Desliga</button>
-    </div>
-    <script type="text/javascript" src="./lampada.js"></script>
+   <main>
+    <div class="container">
+        <h1>Descubra seu IMC: </h1>
+           
+        <form>
+            <label>Nome:</label><br>
+            <input type="text" id="names"><br>
+        
+        
+            <label>Altura:</label><br>
+            <input type="number"  id="height"><br>
+        
+        
+            <label>Peso:</label><br>
+            <input type="number" id="weight">
+        </form>
+        </br>
+    
+        <button id="calculate" onclick="calImc()">Calcular</button><br>
+        
+        <div id="result"></div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="imc.js"></script>
 </body>
 </html>
